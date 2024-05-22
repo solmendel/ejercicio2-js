@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    min-height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+input[type="text"], input[type="email"], textarea {
+    color: #004085; 
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
